@@ -1,0 +1,24 @@
+# Tài liệu nội bộ, không public
+SPEC.md
+PLAN.md
+
+# Data & weights (lớn, không commit)
+data/raw/
+weights/*.pth
+weights/*.pt
+
+# Outputs sinh ra khi chạy
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
