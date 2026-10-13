@@ -1,9 +1,22 @@
 # Tài liệu nội bộ, không public
 SPEC.md
 PLAN.md
+REFLECTION.md
+
+# Notebook va bao cao LaTeX: khong commit (chi giu local)
+notebooks/
+report/bao_cao.tex
+report/*.pdf
+overleaf_upload/
+overleaf_upload.zip
+lane_detection.pdf
+
+# Claude Code tool state
+.claude/
 
 # Data & weights (lớn, không commit)
 data/raw/
+data/samples/video/
 weights/*.pth
 weights/*.pt
 
